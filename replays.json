@@ -1,0 +1,26 @@
+[
+  {
+    "id": "usecase-1",
+    "name": "SPX Implied Volatility Surface Modeling",
+    "description": "Automatically model and visualize the SPX implied volatility surface using advanced quantitative methods like SVI and SABR. Track how market sentiment evolves over time with smooth, data-driven insights from recent trading sessions.",
+    "category": "Quantitative Finance"
+  },
+  {
+    "id": "usecase-2",
+    "name": "Cryptocurrency Market Correlation Analysis",
+    "description": "Explore how the top digital assets move together across market cycles. This analysis uncovers relationships and risk clusters across leading cryptocurrencies using a full year of market data.",
+    "category": "Quantitative Analysis"
+  },
+  {
+    "id": "usecase-3",
+    "name": "User Event Engagement Funnel (BigQuery + Amplitude)",
+    "description": "Connect BigQuery and Amplitude data to measure engagement drop-off points in your event funnel. Identify users who viewed events but didn't RSVP to improve conversion strategies and event outreach.",
+    "category": "Data Analytics"
+  },
+  {
+    "id": "usecase-4",
+    "name": "Beijing Air Quality Prediction",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  }
+]
