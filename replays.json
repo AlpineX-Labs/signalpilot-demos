@@ -22,5 +22,53 @@
     "name": "Beijing Air Quality Prediction",
     "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
     "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-5",
+    "name": "Use Case 5",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-6",
+    "name": "Use Case 6",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-7",
+    "name": "Use Case 7",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-8",
+    "name": "Use Case 8",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-9",
+    "name": "Use Case 9",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-10",
+    "name": "Use Case 10",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-11",
+    "name": "Use Case 11",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "usecase-12",
+    "name": "Use Case 12",
+    "description": "Leverage environmental and weather data to predict PM2.5 pollution levels in Beijing. A random forest model highlights which meteorological factors most influence air quality and model accuracy.",
+    "category": "Machine Learning"
   }
 ]
