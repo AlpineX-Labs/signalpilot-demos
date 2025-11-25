@@ -1,98 +1,105 @@
 {
   "icpLegends": {
-    "Small Quant": "Small quant funds, indie quants, and researchers prototyping in notebooks.",
-    "Technical Founders": "Founders who code and use notebooks to explore product, markets, or trading ideas.",
-    "DS at Small Startup": "Solo or small-team data scientists supporting product/growth in Series A–C-ish companies.",
-    "DBT Models ↔ Jupyter": "People living between dbt models and Jupyter (analytics engineers, DS/ML who use dbt).",
-    "Academic / Lab": "Grad students, lab RAs, and PIs working in Python notebooks.",
-    "Scientific": "Researchers with spatial, environmental, or scientific panel data.",
-    "Paper-Runners": "People running “paper-ready” analyses: economists, policy analysts, RAs, think-tank folks.",
-    "Product ML": "ML engineers/DS building models for product features (ranking, prediction, personalization)."
+    "Data Scientists & Analytics": "Own product/growth questions, metrics, and ad-hoc analysis in notebooks on top of the warehouse.",
+    "ML Engineers": "Ship models and experiments (ranking, prediction, forecasting) from repos and notebooks.",
+    "Scientific Research": "Researchers and policy/geo folks using notebooks to clean data, run models, and publish figures or reports.",
+    "Quant Research": "Quants and trading researchers building models, backtests, and risk tools on internal data & helpers.",
+    "Product Engineers & Technical Founders": "Hands-on builders who prototype data products, internal tools, and strategies across editor + notebooks."
   },
+  "categories": [
+    "DB & Schema Awareness",
+    "SignalPilot Rules & Skills",
+    "Repo & Local File Scanning",
+    "Multi-step Planning",
+    "Plotting & Visualization",
+    "Interpret Plots & Results",
+    "Import from Web & APIs",
+    "Export & Publish"
+  ],
   "replays": [
     {
       "id": "usecase-1",
       "name": "Build an SPX Options IV Surface",
       "description": "Fit an SPX options IV surface from existing dataframes and ship publication-ready plots without rewriting your notebook.",
-      "category": ["DB / schema-aware code", "Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Incremental edits on existing cells", "Export / publish step"],
-      "icp": ["Small Quant", "Technical Founders"]
+      "category": ["DB & Schema Awareness", "Multi-step Planning", "Plotting & Visualization", "Export & Publish"],
+      "icp": ["Quant Research"]
     },
     {
       "id": "usecase-2",
       "name": "Crypto Rolling Correlations & Heatmaps",
       "description": "Turn noisy crypto returns into rolling correlation views and heatmaps that highlight which assets actually move together.",
-      "category": ["Environment-aware codegen", "Notebook-state awareness", "Visualization scaffold", "Summarize / interpret results", "Incremental edits on existing cells"],
-      "icp": ["Small Quant", "Technical Founders"]
+      "category": ["Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Quant Research"]
     },
     {
       "id": "usecase-3",
       "name": "Event-to-RSVP Funnel Drop-off (Amplitude + Internal DB)",
       "description": "Join Amplitude product events to internal RSVPs, analyze funnel drop-off, and generate a PM-ready narrative of where users churn.",
-      "category": ["DB / schema-aware code", "DBT-aware context", "Run-in-notebook flow", "Summarize / interpret results", "Incremental edits on existing cells"],
-      "icp": ["DS at Small Startup", "DBT Models ↔ Jupyter"]
+      "category": ["DB & Schema Awareness", "Multi-step Planning", "Interpret Plots & Results"],
+      "icp": ["Data Scientists & Analytics", "Product Engineers & Technical Founders"]
     },
     {
       "id": "usecase-4",
       "name": "PM2.5 Air Quality Forecasting (Beijing)",
       "description": "Extend a real PM2.5 forecasting notebook with new features, model runs, and plots ready for a paper or stakeholder report.",
-      "category": ["Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Incremental edits on existing cells", "Export / publish step"],
-      "icp": ["Academic / Lab", "Scientific"]
+      "category": ["Multi-step Planning", "Plotting & Visualization", "Export & Publish"],
+      "icp": ["Scientific Research", "ML Engineers"]
     },
     {
       "id": "usecase-5",
       "name": "Gold–Silver Pairs Trading Backtest",
       "description": "Backtest a cointegration-based GLD/SLV mean-reversion strategy—from spread construction to trade rules and P&L—in one notebook.",
-      "category": ["DB / schema-aware code", "Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["Small Quant", "Technical Founders"]
+      "category": ["DB & Schema Awareness", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Quant Research", "Product Engineers & Technical Founders"]
     },
     {
       "id": "usecase-6",
       "name": "Crisis Drawdown Simulator: 2011 Euro Debt Shock",
       "description": "Simulate portfolio performance through the 2011 Euro debt crisis, compute drawdowns and recovery times, and visualize risk profiles.",
-      "category": ["Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Summarize / interpret results", "Run-in-notebook flow"],
-      "icp": ["Small Quant", "Paper-Runners"]
+      "category": ["Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Quant Research", "Scientific Research"]
     },
     {
       "id": "usecase-7",
       "name": "NBA Game Outcome Prediction from API Data",
       "description": "Pull multi-season NBA data via APIs, engineer features, and train a classifier to predict game outcomes with in-notebook evaluation.",
-      "category": ["Import from web & APIs", "Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["Product ML", "Academic / Lab"]
+      "category": ["Import from Web & APIs", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["ML Engineers", "Data Scientists & Analytics"]
     },
     {
       "id": "usecase-8",
       "name": "A/B Test Analysis of Page Conversion Rates",
       "description": "Compare control vs treatment page performance, run proper stats, and turn conversion metrics into a clear ship/hold recommendation.",
-      "category": ["DB / schema-aware code", "DBT-aware context", "Notebook-state awareness", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["DS at Small Startup", "DBT Models ↔ Jupyter"]
+      "category": ["DB & Schema Awareness", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Data Scientists & Analytics"]
     },
     {
       "id": "usecase-9",
       "name": "FOMC Event Study: Fed Rates vs Yield Curve",
       "description": "Analyze how FOMC rate decisions move the 2y/10y/30y curve with event windows, auto-generated plots, and commentary on inversions.",
-      "category": ["Import from web & APIs", "Notebook-state awareness", "Assumption-aware Planning", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["Small Quant", "Paper-Runners"]
+      "category": ["Import from Web & APIs", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Quant Research", "Scientific Research"]
     },
     {
       "id": "usecase-10",
       "name": "Campaign Spend vs Votes: NYC Elections",
       "description": "Clean and join messy NYC campaign CSVs, fuzzy-match candidates, and see which campaigns turned dollars into votes most efficiently.",
-      "category": ["Repo / local file scanning", "Notebook-state awareness", "Incremental edits on existing cells", "Run-in-notebook flow", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["Academic / Lab", "Paper-Runners"]
+      "category": ["Repo & Local File Scanning", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Scientific Research"]
     },
     {
       "id": "usecase-11",
       "name": "Sector Rotation Backtest: ETF Momentum Strategy",
       "description": "Prototype a sector ETF momentum strategy—pull prices, define rules, backtest, and compare against SPY and equal-weight benchmarks.",
-      "category": ["Environment-aware codegen", "SignalPilot Rules", "Notebook-state awareness", "Run-in-notebook flow", "Visualization scaffold", "Summarize / interpret results"],
-      "icp": ["Small Quant", "Technical Founders"]
+      "category": ["SignalPilot Rules & Skills", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results"],
+      "icp": ["Quant Research", "Product Engineers & Technical Founders"]
     },
     {
       "id": "usecase-12",
       "name": "Global Gold Reserves: 20-Year Country Panel",
       "description": "Turn a wide country-by-year gold-reserve sheet into a tidy panel, rank gainers/losers from 2002–2022, and generate publication-ready visuals.",
-      "category": ["Repo / local file scanning", "Notebook-state awareness", "Visualization scaffold", "Summarize / interpret results", "Export / publish step"],
-      "icp": ["Scientific", "Paper-Runners"]
+      "category": ["Repo & Local File Scanning", "Multi-step Planning", "Plotting & Visualization", "Interpret Plots & Results", "Export & Publish"],
+      "icp": ["Quant Research", "Scientific Research"]
     }
   ]
 }
